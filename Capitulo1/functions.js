@@ -19,8 +19,9 @@ formatAmount(Number(input));
 let Taxa = 0.05;
 
 function calculoJuros(inputt) {
-    let ValorComTaxa = Number(inputt) + Number(inputt) * Taxa
+    let ValorComTaxa = Number(inputt) + (Number(inputt) * Taxa)
     console.log(`Valor com juros: ${ValorComTaxa.toFixed(2)}`)
 }
 
 calculoJuros(input)
+
